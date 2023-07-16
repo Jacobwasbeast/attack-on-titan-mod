@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "aot:survey_corps_cape",
+    "aot:military_police_cape",
+    "aot:garrison_cape"
+  ]
+}

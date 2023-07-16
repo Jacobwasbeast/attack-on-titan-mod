@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "aot",
+  "version": "${version}",
+  "name": "Attack On Titan",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/aot/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.jacobwasbeast.aot.MainClient"
+    ],
+    "main": [
+      "com.jacobwasbeast.aot.Main"
+    ]
+  },
+  "mixins": [
+    "aot.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "trinkets": ">=3.4.1",
+    "minecraft": "1.19.4"
+  }
+}
